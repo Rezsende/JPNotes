@@ -13,6 +13,13 @@ body
 {
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
     color: ${({theme}) => theme.WHITE};
+-webkit-font-smoothing: antialiased;
+}
+
+body, input, button, textarea{
+    font-family: 'Roboto slab', serif;
+    font-size: 16px;
+    outline: none;
 }
 
 a{
